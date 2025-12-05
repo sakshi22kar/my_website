@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #1e88e5;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: #e3f2fd;
+        }
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            background: #1e88e5;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .hero button:hover {
+            background: #1565c0;
+        }
+
+        /* Features */
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            width: 280px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e88e5;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My Website</h2>
+        <p>Your tagline or short description goes here.</p>
+        <button>Get Started</button>
+    </section>
+
+    <section class="features">
+        <div class="card">
+            <h3>Feature One</h3>
+            <p>Short description of your first feature.</p>
+        </div>
+
+        <div class="card">
+            <h3>Feature Two</h3>
+            <p>Short description of your second feature.</p>
+        </div>
+
+        <div class="card">
+            <h3>Feature Three</h3>
+            <p>Short description of your third feature.</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 My Website — All rights reserved.
+    </footer>
+
+</body>
+</html>
